@@ -1,0 +1,36 @@
+.main-container{
+    height: 100vh;
+}
+
+.font-size{
+    font-size: 4rem;
+}
+.container-height{
+    height: 30%;
+}
+.text-pos{
+    text-align: center;
+}
+@media (max-width: 576px) {
+    /* Change font size for small devices */
+    .font-size {
+      font-size: 2rem; /* Adjust the font size as needed */
+    }
+    .container-height{
+        height: 75%;
+    }
+    
+  }
+
+@media (min-width: 576px) and (max-width: 768px){
+    .text-pos{
+        text-align: center;
+    }
+    .container-height{
+        height: 25%;
+    }
+    .font-size {
+        font-size: 2.5rem; 
+      }
+}
+
